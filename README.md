@@ -10,10 +10,11 @@ Currently the scripts supports:
 
 # How to use
 ```ps1
-nc.ps1 <Name> <Optional Flag>
+New-Class <Name> <Optional Flag>
 ```
 - `nc`: meaning "new class"
 - `Name`: name of the class you want to create. This will also be the filename.
+- `Optional Flag`: read Optional Flag explanation below.
 
 ## Naming rules
 The script decides which template is going to use based on the naming conventions that `Name` follows. Here are the rules:
