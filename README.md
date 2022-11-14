@@ -35,6 +35,6 @@ The script decides which template is going to use based on the naming convention
 ## Optional flag
 If for a particular reason you don't want to follow the convention, you can add the second parameter `Force` to **force the usage of the default template**. For example:
 ```ps1
-nc.ps1 UnitTest Force
+New-Class UnitTest Force
 ```
 - This will ignore that the name follows the *xUnit* naming convention.
