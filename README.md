@@ -12,20 +12,19 @@ Currently the scripts supports:
 ```ps1
 New-Class <Name> <Optional Flag>
 ```
-- `nc`: meaning "new class"
 - `Name`: name of the class you want to create. This will also be the filename.
 - `Optional Flag`: read Optional Flag explanation below.
 
 ## Naming rules
 The script decides which template is going to use based on the naming conventions that `Name` follows. Here are the rules:
 - **Interfaces**: `Name` must start with "I" + an upper case letter.
-    - Example: `nc.ps1 IAnimal`
+    - Example: *IAnimal*
 - **xUnit tests**: `Name` must contain the word "Test"
-    - Example: `nc.ps1 UnitTest`
+    - Example: *UnitTest*
 - **Validator**: `Name` must end with the word "Validator"
-    - Example: `nc.ps1 ClientValidator`
+    - Example: *ClientValidator*
 - **Controller**: `Name` must end with the word "Controller"
-    - Example: `nc.ps1 HomeController`
+    - Example: *HomeController*
 
 ## Important information
 - **If `Name` does not match with the previous conventions the script will use the default template.**
