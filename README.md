@@ -41,3 +41,6 @@ New-Class UnitTest Force
 
 # TODO
 - Change the main implementation to use `CmdletBinding()`.
+- Add logic to handle missing dependencies.
+    - Option 1: manually editing the `.csproj` file.
+    - Option 2: running `dotnet add package <PACKAGE>`.
