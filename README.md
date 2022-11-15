@@ -38,3 +38,6 @@ If for a particular reason you don't want to follow the convention, you can add 
 New-Class UnitTest Force
 ```
 - This will ignore that the name follows the *xUnit* naming convention.
+
+# TODO
+- Change the main implementation to use `CmdletBinding()`.
